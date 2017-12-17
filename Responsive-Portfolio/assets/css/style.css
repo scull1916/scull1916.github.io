@@ -1,0 +1,184 @@
+
+
+body {
+	width: 90%
+	font-size: 18px;
+	line-height: 1.5;
+	color: #777777;
+
+}
+
+/* getting the header formatted */
+
+#header {
+	float: left;
+	position: static;
+	max-width: 960px;
+	background-color: #fff;
+	line-height: 1.5;
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-width: 2px;
+	
+
+
+}
+
+/* formating the name and background */
+#name {
+	max-width: 250px;
+	font-family: 'Lora', serif;
+	font-size: 100%;
+	text-align: center;
+	background-color: #4AAAA5;
+	color: #fff;
+	padding: 1em;
+}
+
+/* the nav goes next to the name, float it right*/
+.nav {
+	
+	float: right;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #777777;
+}
+
+
+
+
+
+h2 {
+	color: #4AAAA5;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+
+
+
+img {
+	
+	width: 20%;
+}
+
+
+.container {
+	float: left;
+	background-color: #eee;
+	width: 100%;
+	border-style: 3px solid;
+	padding: 1em;
+	overflow: auto;
+	
+}
+
+.form {
+	float: left;
+	min-width: 40%;
+	background-color: #ffffff;
+	padding: 1em;
+	margin: 1%
+
+}
+
+.aboutMe {
+	float: left;
+	width: 61%;
+	background-color: #ffffff;
+	padding: 1em;
+	margin: 1%
+	
+}
+
+
+#kevin {
+	float: left;
+	width: 25%;
+	padding: 1em;
+	margin: 1%;
+	margin-top: 0%;
+}
+
+.port {
+	float: left;
+	width: 60%;
+	background: white;
+}
+
+#col1, #col2 {
+	float: both;
+	position: relative;
+	overflow: auto;
+	margin: 1%;
+}
+
+
+#pix1, #pix2, #pix3, #pix4, #pix5, #pix6 {
+ 
+	width: 60%;
+
+}
+
+
+.connect {
+
+	float: left;
+	background-color: #ffffff;
+	width: 20%;
+	text-align: center;
+	border-bottom: 2px;
+	margin: 1%;
+
+
+}
+
+
+}
+
+.footer {
+	clear: both;
+	background-color: #666666;
+	color: #eee;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-top-color: #4AAAA5;
+	text-align: center;
+	font-size: 14px;
+	padding:20px;
+}
+
+
+#copyright {
+	clear: both;
+
+}
+
+/* media queries to set screen widths for responsive site */
+
+@media screen (max-width: 980px)
+{
+	.container 
+	{
+		width: 100%;
+	}
+}
+
+@media screen (max-width: 768px)
+{
+	.container 
+	{
+		width: 100%;
+	}
+}
+
+@media screen (max-width: 640px)
+{
+	.container 
+	{
+		width: 100%;
+	}
+}
