@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+	<meta charset="utf-8">
+	
+	<title>CrystalsCollector - Week 4 Game</title>
+	
+
+	<!-- Adding link to Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+
+</head>
+
+<body>
+	<!-- setting the game title -->
+	<div class="container" id="gameTitle">
+		<div class="row">
+			<div class="col-md-6 alert alert-primary text-center" role="alert">
+				<h1>CrystalsCollector!</h1>
+			</div>
+			<!-- <div class="col"></div> -->
+		</div>
+	</div>
+
+	<!-- setting the instructions block -->
+	<div class="container" id="instructions">
+		<div class="row">
+			<div class="col-md-8 alert alert-success" role="alert">
+				<h2>Instructions</h2>
+				<p> Instructions for playing the game go here </p>
+				<ol>How to Play:
+					<li>Click on a crystal</li>
+					<li>Keep clicking on crystals to try to match the target number</li>
+					<li>If you match the target, you win!</li>
+					<li>If you go over the target, you lose.</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+
+	<!-- setting the target block. This will display the randomly generated number to match -->
+	<div class="container" id="targetBlock">
+		<div class="row">
+			<div class="col-md-4 alert alert-info" role="alert">
+				<div id="target">
+					#
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+
+			<!-- setting the wins and loses scoreboard block -->
+			<div class="col-md-3 alert alert-danger" role="alert">
+				<div>
+					Won: <span id="wins">0</span>
+				</div>
+				<div>
+					Lost: <span id="loses">0</span>
+				</div>
+			</div>
+		</div>
+	</div> 
+	
+	<!-- setting up the crystals block -->
+	<div class="container">
+		<div class="row"> 
+			<div class="col-md-5 alert alert-light" id="gems" role="alert">
+			
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- setting up the crystal points accrual block -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 alert alert-dark" role="alert">
+				Your total score is:
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 alert alert-dark">
+				<div id="clickScore">
+					0
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<!-- Adding link to jQuery library -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
