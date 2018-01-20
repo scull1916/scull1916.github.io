@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>TriviaGame</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<style type="text/css"></style>
+</head>
+
+<body>
+	
+	<div class="jumbotron jumbotron-fluid alert alert-primary" role="alert">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+
+					<h1 class="display-3">Trivia Game</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6 alert alert-danger" role="alert">
+					<div>
+						You have exactly: <span id="timer"></span> seconds left!
+					</div>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+
+			
+
+
+
+			<!-- Pull in a question -->
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10 alert alert-success questions" role="alert">
+					<!-- Question text goes here -->
+					<span class="qTxt">Question text here</span>
+					<br>
+					
+				</div>
+				<div class="col-md-1"></div>
+
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 alert alert-warning correct" role="alert"></div>
+				<div class="col-md-12 alert alert-warning incorrect" role="alert"></div>
+				<div class="col-md-12 alert alert-success endGame" role="alert"></div>
+				
+			</div>
+
+
+
+		</div>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
