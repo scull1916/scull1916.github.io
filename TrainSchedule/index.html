@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Train Schedule App</title>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	
+	<!-- Link to Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+
+</head>
+
+<body>
+
+	<!-- jQuery CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+
+	<!-- Layout the UI -->
+
+	<div class="container">
+		<!-- Jumbotron -->
+		<div class="jumbotron jumbotron-fluid col-md-10">
+		  <div class="container">
+		    <h1 class="display-4">Current Train Schedule</h1>
+		    <p class="lead">A train schedule application written using the Moment.js library. This application
+		    is tied to a Firebase database.</p>
+		  </div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-10">
+				<!-- Train schedule section -->
+				<div class="card">
+					<div class="card-header">
+						Train Schedule
+					</div>
+					  <div class="card-body" id="arrivalsBoard">
+
+					    <table class="table table-striped table-responsive" id="trainSchedule">
+					    	<thead>
+					    		<tr>
+					    			<th>Train</th>
+					    			<th>Destination</th>
+					    			<th>Frequency (min)</th>
+					    			<th>Next Arrival</th>
+					    			<th>Minutes Away</th>
+					    		</tr>
+					    	</thead>
+					    	<tbody>
+					    		
+					    	</tbody>
+
+						</table>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<!-- add a spacer row -->
+		<div class="row">
+			<div class="col-md-10">
+				<!-- Add Train section -->
+				<div class="card">
+					<div class="card-header">
+						Add Train
+					</div>
+					  <div class="card-body">
+					    <form>
+
+						  <div class="form-group">
+						    <label for="formGroupTrainName">Train Name</label>
+						    <input type="text" class="form-control" id="TrainName" placeholder="Train Name">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="formGroupDestination">Destination</label>
+						    <input type="text" class="form-control" id="Destination" placeholder="Destination">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="formGroupFirstTrain">First Train time (24:00 hrs.)</label>
+						    <input type="text" class="form-control" id="FirstTrain" placeholder="First Train">
+						  </div>
+
+						  <div class="form-group">
+						    <label for="formGroupFrequency">Frequency</label>
+						    <input type="text" class="form-control" id="Frequency" placeholder="Frequency">
+						  </div>
+
+						</form>
+					  </div>
+					  <button class="btn btn-primary col-md-2" id="addTrain" type="submit">Submit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<!-- Moment.js CDN -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.js"></script>
+
+	<!-- Link to js source file -->
+	<script type="text/javascript" src="assets/javascript/trainApp.js"></script>
+
+</body>
+</html>
