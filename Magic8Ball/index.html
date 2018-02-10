@@ -1,0 +1,156 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Magic8Ball</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col s6 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/poolgame.jpg">
+                <span class="card-title">Magic Eightball</span>
+              </div>
+              <div class="card-content">
+                <span><h3>Alternative Reminiscing</h3></span>
+                <p>Enter Your Name and Pick Your Birth Month and Day THEN click the Eight Ball to start reminiscing</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m6">
+             <img src="images/eightballcartoon.jpg"><h3>Crazy Eight Ball</h3>
+          </div>
+        </div>
+        
+        <form>
+          <div class="form-group">
+            <div class="row">
+
+              <div class="input-field col s3">
+                <label id="name" for="nameInput">Name</label>
+                <input type="text" class="form-control" id="nameInput">
+              </div>
+
+               <div class="input-field col s2" id="monthInput">
+                <select>
+                  <option value="" disabled selected>Month</option>
+                  <option value="01">Jan</option>
+                  <option value="02">Feb</option>
+                  <option value="03">Mar</option>
+                  <option value="04">Apr</option>
+                  <option value="05">May</option>
+                  <option value="06">Jun</option>
+                  <option value="07">Jul</option>
+                  <option value="08">Aug</option>
+                  <option value="09">Sep</option>
+                  <option value="10">Oct</option>
+                  <option value="11">Nov</option>
+                  <option value="12">Dec</option>
+                </select>
+                <label id="month" for="monthInput">Month</label>
+              </div>
+
+              <div class="input-field col s2" id="dayInput">
+                <select>
+                  <option value="" disabled selected>Day</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+                <label id="day" for="dayInput">Day</label>
+              </div>
+              <div class="col s2"><button id="submit"><h4>Click to Play</h4><img src="images/submit.webp"></button></div>
+              <button id="refresh" type="button" value="Refresh Page" onClick="window.location.href=window.location.href"><h4>Play Again</h4><img src="images/refresh.jpg"></button>
+            </div>
+          </div>
+          
+        </form>
+        <div class="container">
+          <div id="resultText"></div>
+          <div id="results">
+            <!-- <img class="materialboxed" data-caption="tv show cat GIF" src="https://media1.giphy.com/media/11tWTgzWb7u1oc/giphy.gif"> -->
+          </div>
+          <div class="progress">
+            <div class="indeterminate"></div>
+          </div>
+        </div>
+
+      </div>
+      <br><br>
+      <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col s4">
+                <h5 class="white-text">Irrational Gravity Squall</h5>
+                <p class="grey-text text-lighten-4">Good friends don't let you do stupid things</p>
+                <p class="grey-text text-lighten-4">.......alone</p>
+              </div>
+              <div class="col s4">
+                <ul>
+                  <li>Keira</li>
+                  <li>Kevin</li>
+                  <li>Askar</li>
+                  <li>Aaron</li>
+                </ul>
+              </div>
+              <div class="col s4 right">
+                <img src="images/poolkitten.jpg">
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Irrational Gravity Squall
+            </div>
+          </div>
+        </footer>
+
+      <!--Import jQuery before materialize.js-->
+
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/firebase.js"></script>
+
+    </body>
+  </html>
