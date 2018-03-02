@@ -1,0 +1,52 @@
+Project One
+Team Name:  Irrational Gravity Squall
+Team Memebers:
+	Keira
+	Kevin
+	Aaron
+	Askar
+Project Description:
+Random question generator which will return one value from a four value array, based on the input of your first name, birth month and birth day.  
+Each question will reach out to an API to grab information:
+Sketch of final product:
+Page design:
+	Header [MAGIC EIGHT BALL]
+	Section to enter data which will be stored to Firebase
+	Name:
+	Birth Month:
+	Birth Day:
+	Section with 8 ball image, with button to ‘click’
+		the spin will generate a random question
+		each question will be specific to an API.
+	Array: 	0-5 movies on these dates OMDB? – trilogy key
+		1-Random box of kittens (GIPHY)
+		2-Historical Weather Events (NOAA)
+		3-Historical NY Times News Articles (NYTimes)
+Task Breakdown:
+
+Page design (HTML/Materialize)
+
+Database design: Firebase.  How does one store data to be used later with a click event. (ie, saved data can have a click event to spin the 8 ball again).
+	1. Store input
+	2. Display input in table array
+	3. Figure out how to regen new event with input
+
+Random 8 Ball Generator on click.
+	1. Create array variables and random math to generate random question
+	2. Push result question to html
+	3. Use question to reach out to applicable api
+
+API
+	1. Determine api for each question
+	2. Create a limit of 5 random years between 1888 and 2017
+	3. Get input from db entry
+
+Generate answer
+1.	Display results from API
+a.	Movies released on this date (close to year/month)
+b.	Weather Data (on this date in ####)
+c.	News Articles (on this date in ####)
+d.	Random box of kittens giphy limit 5
+Create a new spin event to get another result of given/stored 
+
+
