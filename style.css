@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
 	background: "efeee7";
-	font-family: "Georgia,Times New Roman,Times,Serif";
+	font-family: 'Montserrat', sans-serif;
 	font-color: #333333;
 	margin: 0px;
 	padding: 0px;
+/*	background-image: url('images/engine.gif');
+	background-size: cover;*/
 }
 
 header {
