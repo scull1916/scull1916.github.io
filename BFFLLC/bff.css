@@ -1,7 +1,7 @@
 header {
     top: 0px;
     min-height: 30px;
-    position: relative;
+    position: relative, top;
 }
 
 footer {
@@ -90,12 +90,9 @@ ul {
     margin-bottom: 5px;
     font-size: 12px;
     color: #333333;
-    padding: 0px 0px 50px 0px;
+    padding: 0px 0px 50px 2px;
   }
   
- span .am {
-      text-align: left;
-  }
   .days .empty {
     color: #ffffff;
   }
