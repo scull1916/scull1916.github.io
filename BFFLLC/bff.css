@@ -23,7 +23,7 @@ footer {
 }
 
 img {
-    width: 25vh;
+    width: 20vw;
     margin-top: 2%;
     display: block;
     margin-left: auto;
@@ -34,102 +34,112 @@ ul {
     list-style-type: none;
   }
   
-  body {
-    font-family: Arial, sans-serif;
-  }
+body {
+  font-family: Arial, sans-serif;
+}
   
-  /* Month header */
-  .month {
-    padding: 30px 25px;
-    width: 100%;
-    background: #c01f25;
-    text-align: center;
-    color: #fff007;
-    font-size: 24px;
-  }
-  
-  .month ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .month ul li {
-    font-size: 20;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  /* Weekdays header and calendar */
+/* Month header */
+.month {
+  padding: 30px 25px;
+  width: 100%;
+  background: #c01f25;
+  text-align: center;
+  color: #fff007;
+  font-size: 24px;
+}
 
-  .week {
-    padding: 0px 25px;
-    width: 100%;
-  }
-  .weekdays {
-    margin: 0;
-    padding: 10px 0px;
-    background-color: #f2f2f2;
-  
-  }
-  
-  .weekdays li {
-    display: inline-block;
-    width: 13%;
-    color: #333333;
-    text-align: center;
-  
-  }
-  
-  .days {
-    padding: 10px 0;
-    background: #fff;
-    margin: 10px;
-    width: 100%;
-  }
-  
-  .days li {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 13%;
-    text-align: center;
-    vertical-align: text-top;
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #333333;
-    padding: 12px 0px 50px 4.5px;
-  }
-  
-  .days .empty {
-    color: #ffffff;
-  }
+.month ul {
+  margin: 0;
+  padding: 0;
+}
 
-  /* Class description cards */
-  .card-img-top {
-    width: 15rem;
-    height: 10rem;
+.month ul li {
+  font-size: 20;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* Weekdays header and calendar */
 
-  }
+.week {
+  padding: 0px 25px;
+  width: 100%;
+}
+.weekdays {
+  margin: 0;
+  padding: 10px 0px;
+  background-color: #f2f2f2;
 
-  .instructor {
-    font-weight: bold;
-  }
-  
-  .card {
-    display: inline-block;
-    padding: 2em;
-    vertical-align: top;
-  }
+}
 
-  .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: flex-start; */
-  }
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #333333;
+  text-align: center;
 
-  .am .pm {
-    flex: 0 1 auto;
-    background-color: khaki;
-  }
-  
+}
+
+.days {
+  padding: 10px 0;
+  background: #fff;
+  margin: 10px;
+  width: 100%;
+}
+
+.days li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 13%;
+  text-align: center;
+  vertical-align: text-top;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333333;
+  padding: 12px 0px 50px 4.5px;
+}
+
+.days .empty {
+  color: #ffffff;
+}
+
+/* Class description cards */
+.card-img-top {
+  width: 15rem;
+  height: 10rem;
+
+}
+
+.instructor {
+  font-weight: bold;
+}
+
+.card {
+  display: inline-block;
+  padding: 2em;
+  vertical-align: top;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.am .pm {
+  flex: 0 1 auto;
+  background-color: khaki;
+}
+
+/* navigation */
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 2rem 2rem 2rem 0;
+  justify-content: center;
+}
+
+
