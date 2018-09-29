@@ -22,7 +22,7 @@ footer {
     
 }
 
-img {
+#bfflogo {
     width: 20vw;
     margin-top: 2%;
     display: block;
@@ -41,7 +41,7 @@ body {
 /* Month header */
 .month {
   padding: 30px 25px;
-  width: 100%;
+  width: auto;
   background: #c01f25;
   text-align: center;
   color: #fff007;
@@ -61,8 +61,8 @@ body {
 /* Weekdays header and calendar */
 
 .week {
-  padding: 0px 25px;
-  width: 100%;
+  padding: 0;
+  width: auto;
 }
 .weekdays {
   margin: 0;
@@ -125,7 +125,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 .am .pm {
@@ -134,12 +134,33 @@ body {
 }
 
 /* navigation */
+.navbar {
+  justify-content: center;
+}
+
 .nav {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  padding: 2rem 2rem 2rem 0;
-  justify-content: center;
+  flex-flow: row nowrap;
+  padding: 2em 2em 2em 0;
+  width: 10vw;
+}
+
+/* main page styling */
+
+#about, #top {
+  background-color: darkgray;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.bio {
+  /* height: 10vh;
+  padding: 2em; */
+}
+
+#mrsb, #instwo {
+  height: 10%;
 }
 
 
