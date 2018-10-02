@@ -4,7 +4,7 @@ header {
     position: relative, top;
 }
 
-footer {
+footer, #staging, #contact {
     bottom: 0px;
     min-height: 30px;
     position: relative, bottom;
@@ -22,6 +22,12 @@ footer {
     
 }
 
+#contact {
+  padding-top: 2em;
+  text-align: center;
+}
+
+/* work on setting logo & nav postion so that it is fixed at the top of each page */
 #bfflogo {
     width: 20vw;
     margin-top: 2%;
