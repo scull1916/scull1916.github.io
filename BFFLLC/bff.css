@@ -43,6 +43,13 @@ ul {
 body {
   font-family: Arial, sans-serif;
 }
+
+.intro {
+  width: 50vw;
+  font-weight: 600;
+  color: rgb(77, 19, 17);
+  font-size: larger;
+}
   
 /* Month header */
 .month {
