@@ -10,14 +10,13 @@ body {
 	color: black;
 	margin: 0px;
 	padding: 0px;
-/*	background-image: url('images/engine.gif');
-	background-size: cover;*/
+
 }
 
 header {
 	background-color: #333333; 
 }
 
-h1 {
+/* h1 {
 	color: black;
-}
+} */
