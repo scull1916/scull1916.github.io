@@ -7,7 +7,7 @@
 body {
 	background: "efeee7";
 	font-family: 'Montserrat', sans-serif;
-	font-color: #333333;
+	color: #333333;
 	margin: 0px;
 	padding: 0px;
 /*	background-image: url('images/engine.gif');
@@ -19,5 +19,5 @@ header {
 }
 
 h1 {
-	font-color: #eee;
+	color: #eee;
 }
