@@ -239,21 +239,21 @@ body {
 }
 
 #subOne {
-  background-image: url(assets/alora-griffiths-750409-unsplash.jpg);
+  background-image: url(assets/alora-griffiths-750409-unsplash_sm.png);
 
 }
 
 #subTwo {
-  background-image: url(assets/yoga-mat.jpg);
+  background-image: url(assets/yoga-mat_sm.png);
 
 }
 
 #subThree {
-  background-image: url(assets/exercise-class.jpg);
+  background-image: url(assets/exercise-class_sm.png);
 }
 
 #subFour {
-  background-image: url(assets/mountain-sunrise.jpg);
+  background-image: url(assets/mountain-sunrise_sm.png);
 }
 
 #subOne, #subTwo, #subThree, #subFour {
