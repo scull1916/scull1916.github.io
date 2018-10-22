@@ -1,0 +1,252 @@
+
+
+/* Formatting for masthead sitting behind logo */
+.masthead {
+  width: auto;
+  height: 30vh;
+  background-color: white;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: center;
+  margin-left: 0;
+}
+/* work on setting logo & nav postion so that it is fixed at the top of each page */
+#bfflogo, #staging {
+  flex: 0 1 auto;
+  
+}
+
+#bfflogo {
+    width: 20vw;
+    margin-top: 3%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    
+}
+
+footer, #staging, #contact, #bfflogo {
+    top: 0px;
+    min-height: 30px;
+    position: relative, top;
+}
+
+#staging {
+    font-family: sans-serif;
+    display: grid;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    
+}
+
+#contact {
+  padding-top: 2em;
+  text-align: center;
+}
+
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: cornflowerblue;
+  margin: 0;
+}
+
+.intro {
+  width: 50vw;
+  font-weight: 600;
+  color: rgb(77, 19, 17);
+  font-size: larger;
+}
+
+/* Month header */
+.month {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: auto;
+  background: #c01f25;
+  text-align: center;
+  color: #fff007;
+  font-size: 24px;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  font-size: 20;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/* Weekdays header and calendar */
+
+.week {
+  padding: 0;
+  width: auto;
+}
+.weekdays {
+  margin: 0;
+  padding: 10px 0px;
+  background-color: #f2f2f2;
+  
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #333333;
+  text-align: center;
+  
+}
+
+.days {
+  padding: 10px 0;
+  background: #fff;
+  /* margin: 10px; */
+  width: 100%;
+}
+
+.days li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 13%;
+  text-align: center;
+  vertical-align: text-top;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333333;
+  padding: 12px 0px 50px 4.5px;
+}
+
+.days .empty {
+  color: #ffffff;
+}
+
+/* Class description cards */
+.card-img-top {
+  width: 15rem;
+  height: 10rem;
+  
+}
+
+.instructor {
+  font-weight: bold;
+}
+
+.card {
+  display: inline-block;
+  padding: 2em;
+  vertical-align: top;
+  background-color: white;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.am .pm {
+  flex: 0 1 auto;
+  background-color: khaki;
+}
+
+/* navigation */
+.navbar {
+  justify-content: flex-end;
+  background-color: #cc4a14;
+  font-size: 1.25em;
+  font-weight: bold;
+  /* padding-top: 0;
+  padding-bottom: 0; */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1rem;
+  
+}
+
+.navlink {
+  color: #ffc9b2;
+  
+}
+
+/* main page styling */
+
+#about, #top, #announce {
+  width: auto;
+  padding: 2em 1em 2em 1em;
+  margin: 0;
+}
+
+#about, #top, #announce {
+  background-color: white;
+}
+
+
+#mrsb, #instwo {
+  height: 10%;
+}
+
+
+/* test divs */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  text-align: center;
+  
+}
+
+.sub-container {
+  flex: 0 1 auto;
+  background-color: #160633;
+  color: white;
+  font-weight: bold;
+  height: 75vh;
+  width: 100%;
+  /* align-items: center; */
+  
+}
+
+#subOne {
+  background-image: url(assets/alora-griffiths-750409-unsplash_sm.jpg);
+
+}
+
+#subTwo {
+  background-image: url(assets/yoga-mat_sm.jpg);
+
+}
+
+#subThree {
+  background-image: url(assets/exercise-class_sm.jpg);
+}
+
+#subFour {
+  background-image: url(assets/mountain-sunrise_sm.jpg);
+}
+
+#subOne, #subTwo, #subThree, #subFour {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333333;
+  color: #160633;
+  font-weight: bold;
+}
