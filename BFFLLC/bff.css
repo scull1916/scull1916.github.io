@@ -107,7 +107,7 @@ body {
 .days {
   padding: 10px 0;
   background: #fff;
-  margin: 10px;
+  /* margin: 10px; */
   width: 100%;
 }
 
@@ -196,21 +196,6 @@ body {
   background-color: white;
 }
 
-#announce {
-  /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Rock_climbers_yosemite.JPG');
-  background-blend-mode: luminosity;
-  background-color: #160633; */
-  height: 500px;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  
-}
-
-.bio {
-  /* height: 10vh;
-  padding: 2em; */
-}
 
 #mrsb, #instwo {
   height: 10%;
@@ -244,16 +229,16 @@ body {
 }
 
 #subTwo {
-  background-image: url(assets/yoga-mat_sm.png);
+  background-image: url(assets/yoga-mat_sm.jpg);
 
 }
 
 #subThree {
-  background-image: url(assets/exercise-class_sm.png);
+  background-image: url(assets/exercise-class_sm.jpg);
 }
 
 #subFour {
-  background-image: url(assets/mountain-sunrise_sm.png);
+  background-image: url(assets/mountain-sunrise_sm.jpg);
 }
 
 #subOne, #subTwo, #subThree, #subFour {
