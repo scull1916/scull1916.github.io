@@ -52,7 +52,8 @@ footer, #staging, #contact, #bfflogo {
   
 body {
   font-family: Arial, sans-serif;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
+  
   margin: 0;
 }
 
