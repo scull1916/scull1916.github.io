@@ -1,7 +1,7 @@
 
 
 /* Formatting for masthead sitting behind logo */
-.masthead {
+.masthead .navbar {
   width: auto;
   height: 30vh;
   background-color: white;
@@ -9,10 +9,16 @@
   flex-flow: nowrap;
   justify-content: center;
   margin-left: 0;
+  position: fixed;
+  /* left: 0;
+  right: 0; */
 }
 /* work on setting logo & nav postion so that it is fixed at the top of each page */
 #bfflogo, #staging {
   flex: 0 1 auto;
+  /* position: fixed; */
+  left: 0;
+  right: 0;
   
 }
 
@@ -84,6 +90,7 @@ body {
   font-size: 20;
   text-transform: uppercase;
   letter-spacing: 1px;
+  list-style-type: none;
 }
 /* Weekdays header and calendar */
 
@@ -219,7 +226,7 @@ body {
   background-color: #160633;
   color: white;
   font-weight: bold;
-  height: 75vh;
+  height: 85vh;
   width: 100%;
   /* align-items: center; */
   
