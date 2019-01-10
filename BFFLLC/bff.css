@@ -10,8 +10,6 @@
   justify-content: center;
   margin-left: 0;
   position: fixed;
-  /* left: 0;
-  right: 0; */
 }
 /* work on setting logo & nav postion so that it is fixed at the top of each page */
 #bfflogo, #staging {
@@ -45,7 +43,6 @@ footer, #staging, #contact, #bfflogo {
     color: black;
     font-weight: bold;
     text-align: center;
-    /* position: fixed; */
     width: 100%;
     
 }
@@ -58,16 +55,17 @@ footer, #staging, #contact, #bfflogo {
   
 body {
   font-family: Arial, sans-serif;
-  /* background-color: cornflowerblue; */
-  
-  margin: 0;
 }
 
 .intro {
-  width: 50vw;
+  width: 30rem;
   font-weight: 600;
   color: rgb(77, 19, 17);
   font-size: larger;
+}
+
+.card-body {
+  border: #160633;
 }
 
 /* Month header */
@@ -140,7 +138,7 @@ body {
 
 /* Class description cards */
 .card-img-top {
-  width: 15rem;
+  width: auto;
   height: 10rem;
   
 }
@@ -154,6 +152,8 @@ body {
   padding: 2em;
   vertical-align: top;
   background-color: white;
+  width: 20rem;
+  
   
 }
 
@@ -217,7 +217,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  text-align: center;
+  text-align: left;
   
 }
 
