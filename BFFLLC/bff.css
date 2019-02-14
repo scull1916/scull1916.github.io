@@ -152,7 +152,7 @@ body {
   padding: 2em;
   vertical-align: top;
   background-color: white;
-  width: 20rem;
+  width: 40rem;
   
   
 }
@@ -210,6 +210,11 @@ body {
   height: 10%;
 }
 
+/* events page image */
+#dresses {
+  height: 20%;
+}
+
 
 /* test divs */
 
@@ -250,7 +255,11 @@ body {
   background-image: url(assets/mountain-sunrise_sm.jpg);
 }
 
-#subOne, #subTwo, #subThree, #subFour {
+#eventOne {
+  background-image: url(assets/discoball-sm.jpg);
+}
+
+#subOne, #subTwo, #subThree, #subFour, #eventOne {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
